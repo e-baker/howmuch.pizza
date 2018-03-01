@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card card-body mb-3">
+            <form>
+                <div class="row">
+                    <h2 class="col-lg-12">Pizza Eaters</h2>
+                    <div class="form-group col-lg-6">
+                        <label>Pizza Size</label><br/>
+                        <select class="custom-select" #size>
+                            <option value="8">8 inches</option>
+                            <option value="12">12 inches</option>
+                            <option value="14">14 inches</option>
+                            <option value="16">16 inches</option>
+                            <option value="18">18 inches</option>
+                        </select>
+                    </div>
+                <div class="form-group col-lg-6">
+                    <label>Adults</label>
+                    <input type="number" class="form-control" name="adults" #adults>
+                </div>
+                <div class="form-group col-lg-6">
+                    <label>Teenagers</label>
+                    <input type="number" class="form-control" name="teenagers" #teenagers>
+                </div>
+                <div class="form-group col-lg-6">
+                    <label>Children</label>
+                    <input type="number" class="form-control" name="children" #children>
+                </div>
+                </div>
+                <input type="hidden" name="id">
+                <button (click)="calcTotalPizza(size.value, adults.value, teenagers.value, children.value)" class="btn btn-warning btn-block">Calculate</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card card-body">
+            <h2 class="total">You Need {{ total }} pizza<span *ngIf="total != 1">s</span>.</h2>
+        </div>        
+    </div>
+</div>
