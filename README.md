@@ -1,27 +1,18 @@
-# Howmuch.Pizza
+# mowmuch.pizza
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+This project is a fun little project in Angular 5 that allows me the ability to show I can indeed write Angular code. It also serves the purpose of giving me a helpful little calculator for how much pizza is needed.
 
-## Development server
+##CHANGELOG:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+*3/1/18 - modified the code to allow for adults, teenagers, and children to be differentiated. (v2)
 
-## Code scaffolding
+##TODO:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*Allow for the input of available pizza sizes so the calculator can use that information to give the most efficient use of pizzas.
+*Allow for the input of pricing along with available sizes so the calculator can find the most economical route to pizza.
 
-## Build
+###Developer
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+If you're looking for an Angular developer, let me know eric[at]ericbaker.me.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
