@@ -2,6 +2,8 @@
 
 This project is a fun little project in Angular 5 that allows me the ability to show I can indeed write Angular code. It also serves the purpose of giving me a helpful little calculator for how much pizza is needed.
 
+You can see it in practice by going to (howmuch.pizza)[https://howmuch.pizza]
+
 ## CHANGELOG:
 
 * 3/1/18 - modified the code to allow for adults, teenagers, and children to be differentiated. (v2)
